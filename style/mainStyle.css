@@ -16,6 +16,8 @@ html {
   font-size: 62.5%;
   font-family: 'Fira Sans Condensed', sans-serif; }
 
+nav .brand-logo i {
+  padding-left: 1rem; }
 nav ul li a {
   color: #212121;
   font-size: 1.4rem;
@@ -30,6 +32,11 @@ html {
   font-size: 62.5%;
   font-family: 'Fira Sans Condensed', sans-serif; }
 
+@media (min-width: 992px) {
+  #home .row {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
 #home h2 {
   font-weight: 600;
   margin-top: 2.5rem; }
@@ -42,5 +49,23 @@ html {
   border: none; }
 #home .responsive-img {
   margin-top: 3rem; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Fira Sans Condensed', sans-serif; }
+
+#numbers .card {
+  border-radius: 0.5rem; }
+  #numbers .card .card-title {
+    padding-top: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px; }
+  #numbers .card .card-content {
+    font-size: 1.6rem; }
 
 /*# sourceMappingURL=mainStyle.css.map */

@@ -1,6 +1,9 @@
 @import './general';
 
 nav {
+  .brand-logo i {
+    padding-left: 1rem;
+  }
   ul {
     li {
       a {

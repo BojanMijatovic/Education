@@ -1,6 +1,15 @@
 @import './general';
 
 #home {
+  //  Media query
+  @media (min-width: 992px) {
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
   h2 {
     font-weight: 600;
     margin-top: 2.5rem;
