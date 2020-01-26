@@ -68,4 +68,16 @@ html {
   #numbers .card .card-content {
     font-size: 1.6rem; }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Fira Sans Condensed', sans-serif; }
+
+#courses .card-content {
+  font-size: 1.4rem; }
+
 /*# sourceMappingURL=mainStyle.css.map */
