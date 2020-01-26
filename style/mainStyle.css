@@ -7,4 +7,18 @@ html {
   font-size: 62.5%;
   font-family: 'Fira Sans Condensed', sans-serif; }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Fira Sans Condensed', sans-serif; }
+
+nav ul li a {
+  color: #212121;
+  font-size: 1.4rem;
+  font-weight: 600; }
+
 /*# sourceMappingURL=mainStyle.css.map */

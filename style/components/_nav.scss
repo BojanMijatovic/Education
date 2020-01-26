@@ -1,0 +1,13 @@
+@import './general';
+
+nav {
+  ul {
+    li {
+      a {
+        color: $main-dark-color;
+        font-size: 1.4rem;
+        font-weight: 600;
+      }
+    }
+  }
+}

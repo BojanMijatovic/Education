@@ -1,1 +1,7 @@
-console.log('test');
+
+$(document).ready(function () {
+
+  // Side nav
+  $('.button-collapse').sideNav();
+
+});
