@@ -1,0 +1,21 @@
+@import './general';
+
+#home {
+  h2 {
+    font-weight: 600;
+    margin-top: 2.5rem;
+  }
+  p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+  a {
+    border-radius: 1.6rem;
+    font-size: 1.4rem;
+    border: none;
+  }
+
+  .responsive-img {
+    margin-top: 3rem;
+  }
+}
