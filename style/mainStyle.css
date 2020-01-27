@@ -102,4 +102,37 @@ html {
   color: #212121;
   background: #ffff8d; }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Fira Sans Condensed', sans-serif; }
+
+#contact .card-panel .input-field i {
+  color: #212121;
+  cursor: pointer; }
+#contact .card-panel .input-field #icon_prefix {
+  border-bottom: #212121 solid 1px;
+  box-shadow: none;
+  font-size: 1.4rem;
+  color: #212121; }
+#contact .card-panel .btn-new {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: #212121 solid 2px;
+  border-radius: 0.5rem;
+  background-color: white;
+  margin: 1rem; }
+#contact .collection {
+  cursor: pointer; }
+  #contact .collection .collection-header {
+    font-size: 1.4rem;
+    color: #212121;
+    font-weight: 600; }
+  #contact .collection .collection-item {
+    font-size: 1.4rem; }
+
 /*# sourceMappingURL=mainStyle.css.map */

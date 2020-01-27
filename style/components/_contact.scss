@@ -1,0 +1,40 @@
+@import './general';
+
+#contact {
+  .card-panel {
+    .input-field {
+      i {
+        color: $main-dark-color;
+        cursor: pointer;
+      }
+
+      #icon_prefix {
+        border-bottom: $main-dark-color solid 1px;
+        box-shadow: none;
+        font-size: 1.4rem;
+        color: $main-dark-color;
+      }
+    }
+
+    .btn-new {
+      font-size: 1.2rem;
+      padding: 0.5rem;
+      border: $main-dark-color solid 2px;
+      border-radius: 0.5rem;
+      background-color: white;
+      margin: 1rem;
+    }
+  }
+
+  .collection {
+    cursor: pointer;
+    .collection-header {
+      font-size: 1.4rem;
+      color: $main-dark-color;
+      font-weight: 600;
+    }
+    .collection-item {
+      font-size: 1.4rem;
+    }
+  }
+}
