@@ -80,4 +80,26 @@ html {
 #courses .card-content {
   font-size: 1.4rem; }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  font-family: 'Fira Sans Condensed', sans-serif; }
+
+#faqs p {
+  font-size: 1.4rem;
+  margin-bottom: 2rem; }
+#faqs a {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: #212121 solid 2px;
+  border-radius: 1.2rem; }
+#faqs a:hover,
+#faqs a:active {
+  color: #212121;
+  background: #ffff8d; }
+
 /*# sourceMappingURL=mainStyle.css.map */

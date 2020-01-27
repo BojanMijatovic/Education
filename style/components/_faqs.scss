@@ -1,0 +1,21 @@
+@import './general';
+
+#faqs {
+  p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+
+  a {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border: $main-dark-color solid 2px;
+    border-radius: 1.2rem;
+  }
+
+  a:hover,
+  a:active {
+    color: $main-dark-color;
+    background: $main-yellow-color;
+  }
+}
