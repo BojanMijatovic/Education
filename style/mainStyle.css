@@ -1,138 +1,200 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 html {
   font-size: 62.5%;
-  font-family: 'Fira Sans Condensed', sans-serif; }
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 html {
   font-size: 62.5%;
-  font-family: 'Fira Sans Condensed', sans-serif; }
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
 
 nav .brand-logo i {
-  padding-left: 1rem; }
+  padding-left: 1rem;
+}
+
 nav ul li a {
   color: #212121;
   font-size: 1.4rem;
-  font-weight: 600; }
+  font-weight: 600;
+}
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 html {
   font-size: 62.5%;
-  font-family: 'Fira Sans Condensed', sans-serif; }
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
 
 @media (min-width: 992px) {
   #home .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center; } }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 #home h2 {
   font-weight: 600;
-  margin-top: 2.5rem; }
+  margin-top: 2.5rem;
+}
+
 #home p {
   font-size: 1.4rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
+
 #home a {
   border-radius: 1.6rem;
   font-size: 1.4rem;
-  border: none; }
+  border: none;
+}
+
 #home .responsive-img {
-  margin-top: 3rem; }
+  margin-top: 3rem;
+}
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 html {
   font-size: 62.5%;
-  font-family: 'Fira Sans Condensed', sans-serif; }
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
 
 #numbers .card {
-  border-radius: 0.5rem; }
-  #numbers .card .card-title {
-    padding-top: 1.5rem;
-    font-weight: 600;
-    letter-spacing: 2px; }
-  #numbers .card .card-content {
-    font-size: 1.6rem; }
+  border-radius: 0.5rem;
+}
+
+#numbers .card .card-title {
+  padding-top: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+#numbers .card .card-content {
+  font-size: 1.6rem;
+}
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 html {
   font-size: 62.5%;
-  font-family: 'Fira Sans Condensed', sans-serif; }
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
 
 #courses .card-content {
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+}
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 html {
   font-size: 62.5%;
-  font-family: 'Fira Sans Condensed', sans-serif; }
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
 
 #faqs p {
   font-size: 1.4rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+}
+
 #faqs a {
   font-size: 1.2rem;
   padding: 0.5rem;
   border: #212121 solid 2px;
-  border-radius: 1.2rem; }
+  border-radius: 1.2rem;
+}
+
 #faqs a:hover,
 #faqs a:active {
   color: #212121;
-  background: #ffff8d; }
+  background: #ffff8d;
+}
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 html {
   font-size: 62.5%;
-  font-family: 'Fira Sans Condensed', sans-serif; }
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
 
 #contact .card-panel .input-field i {
   color: #212121;
-  cursor: pointer; }
+  cursor: pointer;
+}
+
 #contact .card-panel .input-field #icon_prefix {
   border-bottom: #212121 solid 1px;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   font-size: 1.4rem;
-  color: #212121; }
+  color: #212121;
+}
+
 #contact .card-panel .btn-new {
   font-size: 1.2rem;
   padding: 0.5rem;
   border: #212121 solid 2px;
   border-radius: 0.5rem;
   background-color: white;
-  margin: 1rem; }
-#contact .collection {
-  cursor: pointer; }
-  #contact .collection .collection-header {
-    font-size: 1.4rem;
-    color: #212121;
-    font-weight: 600; }
-  #contact .collection .collection-item {
-    font-size: 1.4rem; }
+  margin: 1rem;
+}
 
+#contact .collection {
+  cursor: pointer;
+}
+
+#contact .collection .collection-header {
+  font-size: 1.4rem;
+  color: #212121;
+  font-weight: 600;
+}
+
+#contact .collection .collection-item {
+  font-size: 1.4rem;
+}
 /*# sourceMappingURL=mainStyle.css.map */
